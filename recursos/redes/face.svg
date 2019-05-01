@@ -3,8 +3,10 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 21 21" style="enable-background:new 0 0 21 21;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FF5E60;}
+	.st0{fill:#FFFFFF;}
 </style>
-<path id="Trazado_41" class="st0" d="M11.31,20v-8.88h3.13l0.45-3.47h-3.58V5.48c0-0.97,0.34-1.73,1.79-1.73H15V0.61
-	c-0.45,0-1.56-0.11-2.79-0.11C9.83,0.35,7.78,2.09,7.62,4.4C7.61,4.61,7.61,4.83,7.63,5.05v2.6H4.5v3.47h3.13V20L11.31,20z"/>
+<g id="Trazado_41">
+	<path class="st0" d="M11.31,20v-8.88h3.13l0.45-3.47h-3.58V5.48c0-0.97,0.34-1.73,1.79-1.73H15V0.61c-0.45,0-1.56-0.11-2.79-0.11
+		C9.83,0.35,7.78,2.09,7.62,4.4C7.61,4.61,7.61,4.83,7.63,5.05v2.6H4.5v3.47h3.13V20L11.31,20z"/>
+</g>
 </svg>

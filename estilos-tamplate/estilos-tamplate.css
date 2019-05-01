@@ -21,7 +21,7 @@ header{
 section#promo{
 	width: 100%;
 	height: 400px;
-	background-image: url(../recursos/img/bg_bienvenida.jpg);
+	background-image: url("../recursos/img/bg_bienvenida.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
@@ -53,29 +53,71 @@ div#centrarNav, div#centrarHeader, div#centrarPromo, div#centrarContenidos, div#
 	position: relative;
 }
 div#face{
-	width: 11px;
+	width: 21px;
 	height: 21px;
 	margin-left: 15px;
-	background-image:url(../recursos/redes/faceWhite.svg);
+	background-image: url("../recursos/redes/face.svg");
 }
 div#face:hover{
-	background-image: url(../recursos/redes/faceHover.svg);
+	background-image: url("../recursos/redes/faceHover.svg");
 }
 div#twit{
-	width: 23px;
-	height: 19px;
+	width: 21px;
+	height: 21px;
 	margin-left: 15px;
-	background-image: url(../recursos/redes/twitterWhite.svg);
+	background-image: url("../recursos/redes/twit.svg");
 }
 div#twit:hover{
-	background-image: url(../recursos/redes/twitterHover.svg);
+	background-image: url("../recursos/redes/twitHover.svg");
 }
 div#insta{
 	width: 21px;
 	height: 21px;
 	margin-left: 15px;
-	background-image: url(../recursos/redes/inwhite.svg);
+	background-image: url("../recursos/redes/insta.svg");
 }
 div#insta:hover{
-	background-image: url(../recursos/redes/inHover.svg);
+	background-image: url("../recursos/redes/instaHover.svg")
+}
+nav ul#menuPrincipal{
+	float: left;
+	margin-top: 20px;
+	margin-right: 15px;
+	list-style: none;
+}
+navul#socialesTop{
+	float: left;
+	margin-top: 20px;
+	list-style: none;
+	margin-left: 20px;
+	text-align: center;
+}
+nav ul#menuPrincipal li{
+	float: left;
+	margin-left: 30px;
+}
+nav ul#socialesTop li{
+	float: right;
+	margin-left: 30px;
+}
+div#centrarNav img{
+	float: left;
+	margin-left: 10px;
+	padding-top: 19px;
+}
+nav ul#menuPrincipal li a{
+	color: black;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: 100; 
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	list-style: none;
+}
+nav div#centrarNav:hover{ 
+	color: #FF5E60;
 }
