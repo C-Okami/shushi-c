@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+section#contenidos{
+	height: 930px;
+}
+h2.titulo{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	color: #D0E542;
+}
+div.boxRollo{
+	width: 276px;
+	height: 350px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	overflow: hidden; /*todo lo que este mas aya de la medida se escondera*/
+}
+div#sushi1{ /*para hacer zoom*/
+	width: 100%;
+	height: 100%;
+	background-image: url(../recursos/img/especialidades/especialidad0.jpg);
+	transition: transform 0.35s; /*para que tenga una duracion de "animacion"*/
+	/*0.35s es el tiempo promedio 0.5 o 0.75 son las otras duraciones mas usadas pero usar de preferencia 0.35*/
+}
+div#sushi1:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad0.jpg);
+	transform: scale(1.1); /*para hacer un zoom de 10%*/
+}
+div#sushi2{
+	background-image: url(../recursos/img/especialidades/especialidad1.jpg);
+}
+div#sushi2:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad1.jpg);
+}
+div#sushi3{
+	background-image: url(../recursos/img/especialidades/especialidad2.jpg);
+}
+div#sushi3:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad2.jpg);
+}
+div#sushi4{
+	background-image: url(../recursos/img/especialidades/especialidad3.jpg);
+}
+div#sushi4:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad3.jpg);
+}
+div#sushi5{
+	background-image: url(../recursos/img/especialidades/especialidad4.jpg);
+}
+div#sushi5:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad4.jpg)
+}
+div#sushi6{
+	background-image: url(../recursos/img/especialidades/especialidad5.jpg);
+}
+div#sushi6:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad5.jpg);
+}
+div#sushi7{
+	background-image: url(../recursos/img/especialidades/especialidad6.jpg);
+}
+div#sushi7:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad6.jpg);
+}
+div#sushi8{
+	background-image: url(../recursos/img/especialidades/especialidad7.jpg);
+}
+div#sushi8:hover{
+	background-image: url(../recursos/img/especialidades/hover/especialidad7.jpg);
+}
