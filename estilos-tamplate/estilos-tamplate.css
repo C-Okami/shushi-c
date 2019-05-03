@@ -177,7 +177,7 @@ div.footerB{
 div#centrarFooter div.footerA ul{
 	list-style: none;
 }
-div.footerA ul#menuFooter a, ul#socialesFooter a{
+ul#menuFooter a, ul#socialesFooter a{
 	color: white;
 	text-decoration: none;
 }
@@ -192,18 +192,61 @@ div.footerB h6{
 	color: white;
 	font-size: 14px;
 }
-
-/* algo como esto es lo que hay q meter para datos de usuario
-.campo{
-	width: 300px;
+input#email{
+	width: 180px;
 	height: 40px;
-	border: solid 1px #B14E80;
-	border-radius: 8px;
+	border: solid 1px white;
 	background-color: transparent;
-	font-weight: 100;
-	font-size: 16px;
-	color: #B14E80;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
 	padding-left: 10px;
-padding-bottom: 10px;
 }
-*/
+::-webkit-input-placeholder{color: #B14E80;}/*para Safari y Chrome*/
+::-moz-input-placeholder{color: #B14E80;} /*Mozilla Firefox*/
+::-ms-input-placeholder{color: #B14E80;} /*Microsoft IE o Edge*/
+::-o-input-placeholder{color: #B14E80;} /*Opera*/
+input-placeholder{color: #B14E80;} /*Universal*/
+input#enviar{
+	width: 70px;
+	height: 42px;   
+	background-color: white;
+	color: #A1C133;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-left: -5px;
+	cursor: pointer;
+}
+input#enviar:hoover{
+	background-color: #FF5E60;
+	color: white;
+}
+div#face2{
+	width: 11px;
+	height: 21px;
+	background-image: url(../recursos/redes/face.svg);
+	float: left;
+	margin-right: 15px;
+}
+dive#face2:hoover{
+	background-image: url(../recursos/redes/faceHover.svg);
+}
+dive#twit2{
+	width: 20px;
+	height: 17px;
+	background-image: url(../recursos/redes/twit.svg);
+	float: left;
+	margin-right: 15px;
+}
+dive#twit2:hoover{
+	background-image: url(../recursos/redes/instaHover.svg);
+}
+dive#insta2{
+	width: 20px;
+	height: 20px;
+	background-image: url(../recursos/redes/insta.svg);
+	float: left;
+	margin-right: 15px;
+}
+div#insta2:hoover{
+	background-image: url(../recursos/redes/instaHover.svg);
+}
