@@ -54,7 +54,6 @@ footer{
 div#centrarNav, div#centrarHeader, div#centrarPromo, div#centrarContenidos, div#centrarUbicacion, div#centrarFooter{
 	width: 1200px;
 	height: 100%;
-	background-color: rgba(147,112,219,0.33);
 	margin: 0 auto; /*para centrar en una sola instrcuin a ambos lados*/
 	position: relative;
 }
