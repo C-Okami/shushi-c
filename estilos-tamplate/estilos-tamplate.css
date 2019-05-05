@@ -220,31 +220,31 @@ input#enviar:hoover{
 	color: white;
 }
 div#face2{
-	width: 11px;
+	width: 21px;
 	height: 21px;
 	background-image: url(../recursos/redes/face.svg);
 	float: left;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 dive#face2:hoover{
 	background-image: url(../recursos/redes/faceHover.svg);
 }
 dive#twit2{
-	width: 20px;
-	height: 17px;
+	width: 21px;
+	height: 21px;
 	background-image: url(../recursos/redes/twit.svg);
 	float: left;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 dive#twit2:hoover{
 	background-image: url(../recursos/redes/instaHover.svg);
 }
 dive#insta2{
-	width: 20px;
-	height: 20px;
+	width: 21px;
+	height: 21px;
 	background-image: url(../recursos/redes/insta.svg);
 	float: left;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 div#insta2:hoover{
 	background-image: url(../recursos/redes/instaHover.svg);
