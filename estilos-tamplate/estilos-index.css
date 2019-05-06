@@ -3,13 +3,6 @@
 section#contenidos{
 	height: 930px;
 }
-h2.titulo{
-	text-align: center;
-	font-size: 40px;
-	padding-top: 40px;
-	margin-bottom: 40px;
-	color: #D0E542;
-}
 div.boxRollo{
 	width: 276px;
 	height: 350px;
