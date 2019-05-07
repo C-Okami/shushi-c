@@ -7,14 +7,16 @@
 <!-- InstanceEndEditable -->
 <link rel="stylesheet" href="estilos-tamplate/estilos-tamplate.css"> <!--seppuede poner primero link href y despues rel o como seve no altera la lectura de las etiquetas-->
 	<link rel="stylesheet" href="fontkit/josefin-font.css">
-	<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceBeginEditable name="head" -->
 	<link href="estilos-tamplate/estilos-servicios.css" rel="stylesheet">
 	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
-	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
 	<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
 	<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
-	<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
-	<!-- InstanceEndEditable -->
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+	<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<!-- InstanceEndEditable -->
 </head>
 <body>
 	<nav>
@@ -72,29 +74,78 @@
 			<h2 class="titulo">NUESTROS SERVICIOS</h2>
 			<div id="boxAcordeon">
 			  <div id="Accordion1">
-				  <h3><a href="#">Section 1</a></h3> <!--# simula texto para que aparesca la mano del cursor-->
+				  <h3><a href="#">Maki de salmón</a></h3> <!--# simula texto para que aparesca la mano del cursor-->
 				  <div>
-				    <p>Content 1</p>
+					<img src="recursos/img/servicio/servicio1.png" alt="servicio 1" width="200">
+					  <h4>Sushi de salmón</h4>
+				    <p>Rollo de arroz relleno de queso crema, enbuelto en hoja de alga nori y de salmón.</p>
 			    </div>
-				  <h3><a href="#">Section 2</a></h3>
+				  <h3><a href="#">Maki ebi tempura</a></h3>
 				  <div>
-				    <p>Content 2</p>
+					  <img src="recursos/img/servicio/servicio2.png" alt="servicio 2" width="200">
+					  <h4>Sushi de tempura de camaron</h4>
+				    <p>Rollo de arroz relleno deRollo de arroz relleno de camaron empanizado, aguacate con hoja de alga nori por fuera sebollin.</p>
 			    </div>
-				  <h3><a href="#">Section 3</a></h3>
+				  <h3><a href="#">Futomaki</a></h3>
 				  <div>
-				    <p>Content 3</p>
+					  <img src="recursos/img/servicio/servicio3.png" alt="servicio 3" width="200">
+					  <h4>Rollo de sushi grande</h4>
+				    <p>Rollo de arroz relleno de palitos de cangrejo, pepino, huevo y enbuelto pro fuera con alga nori.</p>
 			    </div>
-					<h3><a href="#">Section 4</a></h3>
+					<h3><a href="#">Kappa maki</a></h3>
 				  <div>
-					  <p>Content 4</p>
+					  <img src="recursos/img/servicio/servicio4.png" alt="servicio 4" width="200">
+					  <h4>Shushi de pepino</h4>
+					  <p>Rollo de arroz relleno de pepino,y enbuelto pro fuera con alga nori.</p>
 				  </div>
 			  </div>
             </div>
-			<div id="boxTapa"></div>
-			
+			<div id="boxTabs">
+			  <div id="Tabs1">
+				  <ul>
+				    <li><a href="#tabs-1">Paquete 1</a></li>
+				    <li><a href="#tabs-2">Paquete 2</a></li>
+				    <li><a href="#tabs-3">Paquete 3</a></li>
+					<li><a href="#tabs-4">Paquete 4</a></li>
+			    </ul>
+				  <div id="tabs-1">
+					<img src="recursos/img/servicio/paquetes/paquete1.png" alt="paquete 1">
+					<h4>Paquete de shushi de salmón con atun y Sushi de pulpo</h4>
+				    <p>El rollo de salmon con atun contine: arroz en forma de rollo relleno de queso crema, palitos de cangrejo, pepino, aguacate y hoja de alga nori, con laminas de autun y salmón por fuera. El rollo de pulpo contine: arroz en forma de rollo relleno de queso crema, aguacate y hoja de alga nori, con laminas de tentaculos de pulpo por fuera.</p>
+			    </div>
+				  <div id="tabs-2">
+					<img src="recursos/img/servicio/paquetes/paquete2.png" alt="paquete 2">
+				    <h4>Paquete de charola de sushi</h4>
+					<p>Rollo californa preoarado con arroz, aguacate, queso crema, pepino, mayoneza, alga nori y semillas de sesamo. Rollo de aguacate preoarado con arroz, aguacate por fuera, queso crema, pepino, alga nori y palitos de cangrejo. Rollo empanizado preoarado con arroz, aguacate, queso crema, pepino, palito de cangrejo, alga nori y rebozado. Rollo tampico preoarado con arroz, aguacate, queso crema, pepino, tampico, alga nori. Para 6 personas.</p>
+			    </div>
+				  <div id="tabs-3">
+					<img src="recursos/img/servicio/paquetes/paquete3.png" alt="paquete 3">
+					<h4>Paquete de sushi importado</h4>
+				    <p>Sushi tradicional japones, longas de pescado crudo dispuestas sobre una pequeña cama de arroz y un toque de wasabi. Las longas de pescado son: atul, salmón, camaron, pulpo. algunos puedne tener tortilla de huevo estilo japones</p>
+			    </div>
+				  <div id="tabs-4">
+					<img src="recursos/img/servicio/paquetes/paquete4.png" alt="paquete 4">
+					<h4>Paquete de tonkotsu</h4>
+				    <p>Ensalada de lechuga, cama de arroz y cerdo empanizado</p>
+			    </div>
+			  </div>
+            </div>
 			<script type="text/javascript">
 $(function() {
-	$( "#Accordion1" ).accordion(); 
+					$( "#Accordion1" ).accordion({
+						active:10,
+						collapsible:true, /*para que se pueda cerar el acordion con true y si no con falce pero no se podra cerrar*/
+						heightStyle:"fill",
+						animate:{easing: "easeOutCirc",duration:750},
+						icons:{header: "ui-icon-circle-plus", activeHeader:"ui-icon-minus"}
+					}); 
+				});
+$(function() {
+	$( "#Tabs1" ).tabs({
+		heightStyle:"fill",
+		hide:{effect: "drop"},
+		show:{effect: "blind"}
+	}); 
 });
             </script>
 			<!-- InstanceEndEditable -->

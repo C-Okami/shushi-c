@@ -11,11 +11,41 @@ div#boxAcordeon{
 	left: 0px;
 	background-color: violet;
 }
-div#boxTapa{
+div#boxTabs{
 	width: 582px;
 	height: 558px;
 	position: absolute;
 	top: 149px;
 	left: 612px;
 	background-color: violet;
+}
+div#boxAcordeon img{
+	float: left;
+	margin-right: 20px;
+}
+div#Accordion1 h4{
+	font-size:  20px;
+	text-transform: uppercase; /*tipografia en altas*/
+	margin: 20px 0;
+	color: #FF5E60;
+}
+div#Accordion1 p{
+	font-size: 14px;
+	color: #FF5E60;
+}
+div#Tabs1 p{
+	-webkit-column-count: 2;
+	-webkit-column-gap: 15px;
+	-moz-column-count: 2;
+	-moz-column-gap: 15px;
+	column-count: 2;
+	column-gap: 15px;
+	font-size: 14px;
+	color: #FF5E60;
+}
+div#Tabs1 h4{
+	font-size:  20px;
+	text-transform: uppercase; /*tipografia en altas*/
+	margin: 20px 0;
+	color: #FF5E60;
 }
