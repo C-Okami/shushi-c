@@ -9,7 +9,6 @@ div#boxAcordeon{
 	position: absolute;
 	top: 149px;
 	left: 0px;
-	background-color: violet;
 }
 div#boxTabs{
 	width: 582px;
@@ -17,7 +16,6 @@ div#boxTabs{
 	position: absolute;
 	top: 149px;
 	left: 612px;
-	background-color: violet;
 }
 div#boxAcordeon img{
 	float: left;

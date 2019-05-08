@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+section#contenidos{
+	height: 603px;
+}
+div#boxForm{
+	width: 408px;
+	height: 320px;
+	position: absolute;
+	top: 163px;
+	left: 102px;
+}
+div#boxDirec{
+	width: 408px;
+	height: 320px;
+	position: absolute;
+	top: 149px;
+	left: 684px;
+	background-color: violet;
+}
+#altura{
+	height: 40px;
+	padding-top: 5px;
+	resize: none;
+}
+.campo{
+	width: 206px;
+	height: 40px;
+	border: solid 1px #D0E542;
+	border-radius: 6px;
+	background-color: transparent;
+	font-weight: 100;
+	font-size: 16px;
+	color: white;
+	padding-left: 22px;
+	padding-bottom: 5px;
+	float: right;
+	font-family: 'josefin_light';
+}
+.enviar{
+	width: 94px;
+	height: 36px;
+	background-color: #D0E542;
+	color: white;
+	font-size: 16px;
+	border-radius: 4px;
+	float: right;
+	margin-right: -1px;
+	margin-top: 5px;
+	cursor: pointer;
+	font-family: 'josefin_light';
+}
+.enviar:hover{
+	background-color: #A1C133;
+	color: #FF5E60;
+}::-webkit-input-placeholder{color: white;} /*este es para el color de las letras del area de .campo*/
+::-moz-input-placeholder{color: white;}
+::-ms-input-placeholder{color: white;}
+::-o-input-placeholder{color: white;}
+input-placeholder{color: white;} 
+.instru{
+	font-size: 16px;
+	color: white;
+	padding-left: 25px;
+	padding-bottom: 22px;
+	float: left;
+}
+#Aviso{
+	color: white;
+}
+div#boxDirec img{
+	width: 139px;
+	height: 84px;
+}
