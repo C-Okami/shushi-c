@@ -16,7 +16,6 @@ div#boxDirec{
 	position: absolute;
 	top: 149px;
 	left: 684px;
-	background-color: violet;
 }
 #altura{
 	height: 40px;
@@ -71,4 +70,16 @@ input-placeholder{color: white;}
 div#boxDirec img{
 	width: 139px;
 	height: 84px;
+	margin-left: 120px;
+	padding-bottom: 34px;
+}
+h5{
+	text-align:center;
+	font-size: 20px;
+	color: white;
+}
+p.texto{
+	text-align:center;
+	font-size: 28px;
+	color: white;
 }

@@ -42,7 +42,7 @@ $mail->isSMTP();  //esta opcion es la que encripta
 $mail->Host = 'ssl://smtp.gmail.com';  // Specify main and backup SMTP servers //dependiende del dominio //bluehost es como el ejemplo
 $mail->SMTPAuth = true;                               // Enable SMTP authentication //true para activar
 $mail->Username = 'Ceci Meneses';                 // SMTP username real
-$mail->Password = 'Pueb@s1540';                           // SMTP password real sino se negara
+$mail->Password = 'Yunuen-13;                           // SMTP password real sino se negara
 $mail->SMTPSecure = 'ssl';                           // Enable TLS encryption, `ssl` also accepted //depende del host
 $mail->Port = 465;                                    // TCP port to connect to //depende del host
 

@@ -226,33 +226,3 @@ input#enviar:hoover{
 	background-color: #FF5E60;
 	color: white;
 }
-div#face2{
-	width: 21px;
-	height: 21px;
-	background-image: url(../recursos/redes/face.svg);
-	float: left;
-	margin-right: 10px;
-}
-dive#face2:hoover{
-	background-image: url(../recursos/redes/faceHover.svg);
-}
-dive#twit2{
-	width: 21px;
-	height: 21px;
-	background-image: url(../recursos/redes/twit.svg);
-	float: left;
-	margin-right: 10px;
-}
-dive#twit2:hoover{
-	background-image: url(../recursos/redes/twitHover.svg);
-}
-dive#insta2{
-	width: 21px;
-	height: 21px;
-	background-image: url(../recursos/redes/insta.svg);
-	float: left;
-	margin-right: 10px;
-}
-div#insta2:hoover{
-	background-image: url(../recursos/redes/instaHover.svg);
-}
